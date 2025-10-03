@@ -6,4 +6,9 @@
 2.优化代码
 3.对pixiv网站的关注进行查重，若新的图片作者为未关注者会保存其id
 4.制作pixiv和x的图片下载功能
-5.由于作者比较懒，所以不知道何时才能有下次更新，但是如果发现有bug可以提出，作者会尽快修改
+
+已打包为exe，运行方法如下：
+usage: saucenao_cli.exe [-h] --api_key API_KEY [--similarity SIMILARITY] [--sleep SLEEP] [--num NUM] [--minsim MINSIM]
+[--save SAVE] [--danbooru_username DANBOORU_USERNAME] [--danbooru_api_key DANBOORU_API_KEY]
+[--proxy_port PROXY_PORT]
+folder
